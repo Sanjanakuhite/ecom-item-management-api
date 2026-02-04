@@ -53,7 +53,7 @@ public class OpenApiConfig {
                                 """)
                         .contact(new Contact()
                                 .name("Sanjana Kuhite")
-                                .email("dsvjavalinux@gmail.com"))
+                                .email("sanjanakuhite3@gmail.com"))
                         .license(new License()
                                 .name("MIT License")
                                 .url("https://opensource.org/licenses/MIT")))
@@ -62,7 +62,7 @@ public class OpenApiConfig {
                                 .url("http://localhost:" + serverPort)
                                 .description("Local Development Server"),
                         new Server()
-                                .url("https://item-management-api.onrender.com")
+                                .url("https://item-management-api-9qbm.onrender.com/")
                                 .description("Production Server")));
     }
 }
