@@ -3,7 +3,7 @@
 A RESTful API for managing e-commerce items built with **Spring Boot 3.2**.
 
 **Author:** Sanjana Kuhite  
-**Email:** dsvjavalinux@gmail.com
+**Email:** sanjanakuhite3@gmail.com
 
 ---
 
