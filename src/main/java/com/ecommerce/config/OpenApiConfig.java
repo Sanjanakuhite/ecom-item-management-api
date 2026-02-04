@@ -62,7 +62,7 @@ public class OpenApiConfig {
                                 .url("http://localhost:" + serverPort)
                                 .description("Local Development Server"),
                         new Server()
-                                .url("https://item-management-api-9qbm.onrender.com/")
+                                .url("https://item-management-api-9qbm.onrender.com")
                                 .description("Production Server")));
     }
 }
