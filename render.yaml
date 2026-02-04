@@ -1,0 +1,12 @@
+# Render Blueprint for Item Management API
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: item-management-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/items
+    envVars:
+      - key: PORT
+        value: 8080
