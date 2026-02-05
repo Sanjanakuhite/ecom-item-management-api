@@ -20,7 +20,6 @@ public class OpenApiConfig {
     @Value("${server.port:8080}")
     private String serverPort;
 
-    
     @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
