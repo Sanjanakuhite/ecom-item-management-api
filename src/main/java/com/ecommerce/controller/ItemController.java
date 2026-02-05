@@ -73,7 +73,6 @@ public class ItemController {
         return ResponseEntity.ok(response);
     }
 
-    
     @GetMapping
     @Operation(summary = "Get all items", description = "Retrieves all items from the e-commerce catalog.")
     @io.swagger.v3.oas.annotations.responses.ApiResponse(responseCode = "200", description = "Items retrieved successfully", content = @Content(schema = @Schema(implementation = ApiResponse.class)))
