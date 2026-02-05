@@ -13,13 +13,6 @@ import java.util.List;
 
 /**
  * OpenAPI/Swagger Configuration
- * 
- * Configures the OpenAPI documentation for the API.
- * Swagger UI will be available at: /swagger-ui.html
- * API Docs will be available at: /v3/api-docs
- * 
- * @author Sanjana Kuhite
- * @version 1.0.0
  */
 @Configuration
 public class OpenApiConfig {
@@ -27,11 +20,7 @@ public class OpenApiConfig {
     @Value("${server.port:8080}")
     private String serverPort;
 
-    /**
-     * Configures OpenAPI documentation metadata.
-     * 
-     * @return OpenAPI configuration object
-     */
+    
     @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
